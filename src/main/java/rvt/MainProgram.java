@@ -50,8 +50,7 @@ public class MainProgram {
     }
     
     public static int binarySearch(int[] array, int searchedValue) {
-        // assuming the variable searched exits
-        // assuming the variable list exits
+    
         int StartIndex = 0;
         int endIndex = array.length - 1;
 
@@ -69,16 +68,5 @@ public class MainProgram {
 
         }
         return -1;
-
-
-
-
-        // if the value at list[middle] is smaller than searched
-        //     begin = middle + 1
-
-        // if the value at list[middle] is larger than searched;
-        //     end = middle - 1;
-
-        //     return value -1;
     }
 }
